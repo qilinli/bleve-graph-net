@@ -15,7 +15,7 @@ The code is significantly based on [this reporsitory](https://github.com/echowve
 
 ## Sample usage
 
-- Download the BLEVE 2D dataset from [OneDrive](https://curtin-my.sharepoint.com/:f:/g/personal/272766h_curtin_edu_au/Eh2PkmLqrexPhkmsRIxZdScBrfVAfgNA8fOiPT6VtZzF8A?e=soQgVg)
+- Download the BLEVE 2D dataset from [OneDrive](https://curtin-my.sharepoint.com/:f:/g/personal/272766h_curtin_edu_au/ElTSySAZfjNBiaTP1bXKvUYBXBe8qM3kj6wGqqSDDw_t0w)
 
 - Training a BGN model with 
   - A k-nearst neighbour graph (k=25), 10 message-passing steps (layers), with 64 hidden neurons in all MLP layers. 
@@ -40,6 +40,9 @@ The code is significantly based on [this reporsitory](https://github.com/echowve
                    --log
     ```
  ## Demo
+ 
+These are the results from BGN (prediction) and FLACS CFD simulation (target). The animation shows the blast pressure wave with the unit in bar.
+
 <img src="https://github.com/qilinli/bleve-graph-net/blob/feb6f602ff05626d4c2b460f9bd5f6b58346441b/images/100046_knn_rollout.gif?raw=true" />
 
 <img src="https://github.com/qilinli/bleve-graph-net/blob/main/images/200130_knn_rollout.gif?raw=true" />
